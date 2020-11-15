@@ -1,11 +1,11 @@
-using System;
+using DevopsExercise.Web.Repository;
 using Xunit;
 
 namespace DevopsExercise.Tests
 {
     public class CalculatorTests
     {
-        Calculator calculator = new Calculator();
+        CalculatorRepository calculator = new CalculatorRepository();
 
         [Fact]
         public void AdditionTest()
